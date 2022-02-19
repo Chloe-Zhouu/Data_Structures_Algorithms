@@ -3,9 +3,6 @@
 ## Example output b = [1, 1, 3, 4, 5, 7, 16, 34, 45]
 
 # Naive method
-from re import I
-
-
 def merge_sorted_array_naive(a, b):
     #check input
     if len(a) == 0 or len(b) == 0:
